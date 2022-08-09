@@ -7,4 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="warna_background">#043FED</color>
+    <color name="warna_text">#FDFBFB</color>
+    <color name="background_textview">#151E55</color>
 </resources>

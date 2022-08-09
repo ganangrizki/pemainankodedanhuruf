@@ -1,14 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/warna_background"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/si_biner"/>
+        android:layout_marginTop="170dp"
+        android:background="@color/background_textview"
+        android:fontFamily="@font/threesignature"
+        android:gravity="center"
+        android:text="@string/si_biner"
+        android:textAlignment="center"
+        android:textColor="@color/warna_text"
+        android:textSize="25pt" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_textview"
+        android:fontFamily="sans-serif"
+        android:text="@string/simulasi_dan_gamifikasi_pembelajaran_ilmu_komputer_dasar"
+        android:textAlignment="center"
+        android:textColor="@color/warna_text"
+        android:textSize="12pt" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/btn_mulai"
+        android:layout_width="wrap_content"
+        android:background="#9BFA2E"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:text="@string/mulai"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
 
 </LinearLayout>
