@@ -5,4 +5,9 @@
     <string name="mulai">Mulai</string>
     <string name="beranda">Beranda</string>
     <string name="keluar">Keluar</string>
+    <string name="pengkodean_angka">Pengkodean Angka</string>
+    <string name="pengkodean_huruf">Pengkodean Huruf</string>
+    <string name="angka_rahasia">Angka Rahasia</string>
+    <string name="membaca_pikiran">Membaca Pikiran</string>
+    <string name="pengkodean_gambar">Pengkodean Gambar</string>
 </resources>

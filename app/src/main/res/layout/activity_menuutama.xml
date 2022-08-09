@@ -1,35 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@color/warna_background"
-    android:orientation="vertical"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/warna_background"
+    android:orientation="vertical"
     tools:context=".menuutama">
-        <TextView
-            android:layout_width="match_parent"
-            android:textSize="14pt"
-            android:textColor="@color/warna_text"
-            android:text="@string/si_biner"
-            android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/si_biner"
+        android:textColor="@color/warna_text"
+        android:textSize="14pt" />
+
     <LinearLayout
         android:layout_width="wrap_content"
-        android:orientation="horizontal"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
         <Button
+            android:id="@+id/btn_beranda"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/beranda"
             android:textAllCaps="false"
-            android:layout_height="wrap_content"
             tools:ignore="ButtonStyle" />
+
         <Button
+            android:id="@+id/btn_keluar"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="@string/keluar"
             android:textAllCaps="false"
-            android:layout_height="wrap_content"
             tools:ignore="ButtonStyle" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_pengkodeanangka"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:gravity="center"
+        android:text="@string/pengkodean_angka"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn_pengkodeanhuruf"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:gravity="center"
+        android:text="@string/pengkodean_huruf"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn_angkarahasia"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:gravity="center"
+        android:text="@string/angka_rahasia"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btn_membacapikiran"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:gravity="center"
+        android:text="@string/membaca_pikiran"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="12sp" />
+    <Button
+        android:id="@+id/btn_pengkodeangambar"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:gravity="center"
+        android:text="@string/pengkodean_gambar"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="12sp" />
 
 
 </LinearLayout>
