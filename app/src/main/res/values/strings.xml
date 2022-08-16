@@ -10,4 +10,8 @@
     <string name="angka_rahasia">Angka Rahasia</string>
     <string name="membaca_pikiran">Membaca Pikiran</string>
     <string name="pengkodean_gambar">Pengkodean Gambar</string>
+    <string name="si_biner_pengkodean_angka">SI BINER:Pengkodean Angka</string>
+    <string name="simulasi">Simulasi</string>
+    <string name="game">Game</string>
+    <string name="dibalik_ilmu_komputer">Dibalik Ilmu Komputer</string>
 </resources>

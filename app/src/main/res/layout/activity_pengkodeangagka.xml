@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/warna_background"
+    android:orientation="vertical"
+    tools:context=".pengkodeangagka">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_textview"
+        android:text="@string/si_biner_pengkodean_angka"
+        android:textColor="@color/warna_text"
+        android:textSize="8pt" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_berandaangka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beranda"
+            android:textAllCaps="false"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btn_keluarangka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/keluar"
+            android:textAllCaps="false"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_simulasi"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/simulasi"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/btn_game"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/game"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_dibalik_ilmu_komputer"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/dibalik_ilmu_komputer"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>
