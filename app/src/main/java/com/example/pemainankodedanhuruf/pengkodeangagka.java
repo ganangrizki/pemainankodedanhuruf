@@ -1,12 +1,10 @@
 package com.example.pemainankodedanhuruf;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class pengkodeangagka extends AppCompatActivity {
     Button btn_keluar;
@@ -17,13 +15,9 @@ public class pengkodeangagka extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pengkodeangagka);
         btn_keluar = (Button) findViewById(R.id.btn_keluar);
-        btn_keluar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent kode = new Intent(pengkodeangagka.this,menuutama.class);
-                startActivity(kode);
-            }
-
+        btn_keluar.setOnClickListener(v -> {
+            Intent kode = new Intent(pengkodeangagka.this,menuutama.class);
+            startActivity(kode);
         });
     }
 }
